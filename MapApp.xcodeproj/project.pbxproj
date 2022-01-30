@@ -15,6 +15,7 @@
 		95AAAF6727A61B8A004F8E9A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AAAF6627A61B8A004F8E9A /* Location.swift */; };
 		95AAAF6927A61F9A004F8E9A /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AAAF6827A61F9A004F8E9A /* LocationsView.swift */; };
 		95AAAF6B27A61FD6004F8E9A /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AAAF6A27A61FD6004F8E9A /* LocationsViewModel.swift */; };
+		95AAAF6D27A71160004F8E9A /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AAAF6C27A71160004F8E9A /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		95AAAF6627A61B8A004F8E9A /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		95AAAF6827A61F9A004F8E9A /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		95AAAF6A27A61FD6004F8E9A /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		95AAAF6C27A71160004F8E9A /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				95AAAF6827A61F9A004F8E9A /* LocationsView.swift */,
+				95AAAF6C27A71160004F8E9A /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95AAAF5227A616D1004F8E9A /* ContentView.swift in Sources */,
+				95AAAF6D27A71160004F8E9A /* LocationsListView.swift in Sources */,
 				95AAAF6B27A61FD6004F8E9A /* LocationsViewModel.swift in Sources */,
 				95AAAF5027A616D1004F8E9A /* MapAppApp.swift in Sources */,
 				95AAAF6927A61F9A004F8E9A /* LocationsView.swift in Sources */,
