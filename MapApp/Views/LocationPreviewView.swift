@@ -57,7 +57,6 @@ extension LocationPreviewView {
                     .scaledToFill()
                     .frame(width: 100, height: 100)
                     .cornerRadius(10)
-                    
             }
         }
         .padding(6)
@@ -79,7 +78,7 @@ extension LocationPreviewView {
     
     private var learnMoreButton: some View {
         Button {
-            
+            vm.sheetLocation = location
         } label: {
             Text("Learn More")
                 .font(.headline)
